@@ -32,8 +32,7 @@
     <sys:String x:Key="SettingsNetworkTimeoutString">Χρονικό όριο-Δίκτυο:</sys:String>
     <sys:String x:Key="SettingsNetworkTimeoutInfo">Καθορίστε το χρονικό όριο δικτύου σε δευτερόλεπτα (προεπιλογή: 60 δευτερόλεπτα). Αυτό επηρεάζει τουλάχιστον το HTTP.</sys:String>
     <sys:String x:Key="SettingsMaxVolumeString">Μέγιστη Ένταση:</sys:String>
-    <sys:String x:Key="SettingsMaxVolumeInfo">Ορίστε το μέγιστο επίπεδο ενίσχυσης σε ποσοστό (100-1000).</sys:String>
-    <sys:String x:Key="SettingsPlaylistWidthString">Πλάτος λίστας αναπαραγωγής:</sys:String>
+    <sys:String x:Key="SettingsMaxVolumeInfo">Ορίστε το μέγιστο επίπεδο ενίσχυσης σε ποσοστό (100-1000).</sys:String>    <sys:String x:Key="SettingsPlaylistWidthString">Πλάτος λίστας αναπαραγωγής:</sys:String>
     <sys:String x:Key="SettingsPlayerFontSizeString">Μέγεθος γραμματοσειράς αναπαραγωγού:</sys:String>
     <sys:String x:Key="SettingsClockString">Ψηφιακό ρολόι:</sys:String>
     <sys:String x:Key="SettingsClockFontSizeString">Ψηφιακό ρολόι Μέγεθος γραμματοσειράς:</sys:String>
@@ -71,8 +70,8 @@
     <sys:String x:Key="TabVodString">Vod</sys:String>
     <sys:String x:Key="TabSeriesString">Σειρές</sys:String>
     <sys:String x:Key="TabFavoritesString">Αγαπημένα</sys:String>
-    <sys:String x:Key="ContextMenuAddFavorite">Προσθήκη αγαπημένου</sys:String>
-    <sys:String x:Key="ContextMenuRemoveFavorite">Αφαιρέση αγαπημένου</sys:String>
+    <sys:String x:Key="AddRemoveFavoriteToolTip">Προσθήκη/Αφαίρεση αγαπημένου</sys:String>
+    <sys:String x:Key="RemoveFavoriteToolTip">Αφαιρέση αγαπημένου</sys:String>
     <sys:String x:Key="ContextMenuDelete">Διαγραφή</sys:String>
     <sys:String x:Key="ContextMenuDeleteAll">Διαγραφή όλων</sys:String>
     <sys:String x:Key="PlaylistColumnTitle">Όνομα</sys:String>
@@ -107,12 +106,15 @@
     <sys:String x:Key="PlayerContextMenuOpenClipboard">Άνοιγμα URL ή αρχείου από το πρόχειρο</sys:String>
     <sys:String x:Key="PlayerContextMenuCopyClipboard">Αντιγραφή τρέχουσας διεύθυνσης URL στο πρόχειρο</sys:String>
     <sys:String x:Key="PlayerContextMenuPauseResume">Παύση/Συνέχιση</sys:String>
+    <sys:String x:Key="PlayerContextMenuRecall">Ανάκληση</sys:String>
     <sys:String x:Key="PlayerContextMenuStop">Διακοπή</sys:String>
     <sys:String x:Key="PlayerContextMenuToggleFullscreen">Εναλλαγή πλήρους οθόνης</sys:String>
     <sys:String x:Key="PlayerContextMenuTakeScreenshot">Λήψη στιγμιότυπου οθόνης</sys:String>
     <sys:String x:Key="PlayerContextMenuAspectRatio">Αναλογία διαστάσεων</sys:String>
     <sys:String x:Key="PlayerContextMenuAspectDefault">Προεπιλογή</sys:String>
     <sys:String x:Key="PlayerContextMenuCycleAspectRatio">Αναλογία διαστάσεων κύκλος</sys:String>
+    <sys:String x:Key="PlayerContextMenuCrop">Περικοπή</sys:String>
+    <sys:String x:Key="PlayerContextMenuCropReset">Επαναφορά</sys:String>
     <sys:String x:Key="PlayerContextMenuAudio">Ήχος</sys:String>
     <sys:String x:Key="PlayerContextMenuAudioTrack">Κομμάτι ήχου</sys:String>
     <sys:String x:Key="PlayerContextMenuAudioDevice">Συσκευή ήχου</sys:String>
@@ -169,6 +171,11 @@
     <sys:String x:Key="PlayerRecordingStoppedString">Η εγγραφή σταμάτησε.</sys:String>
     <sys:String x:Key="PlayerRecordingToolTip">Εγγραφή.</sys:String>
     <sys:String x:Key="PlayerReloadUserToolTip">Επαναφόρτωση χρήστη.</sys:String>
+    <sys:String x:Key="PlayerCropVideoString">Περικοπή βίντεο:</sys:String>
+    <sys:String x:Key="PlayerVideoZoomString">Μεγέθυνση:</sys:String>
+    <sys:String x:Key="PlayerDeinterlaceString">Αποδιαπλοκη</sys:String>
+    <sys:String x:Key="AddedFavoriteString">Προστέθηκε στα αγαπημένα:</sys:String>
+    <sys:String x:Key="RemovedFavoriteString">Αφαιρέθηκε από τα αγαπημένα:</sys:String>
     <sys:String x:Key="ClockMenuTopRightString">Επάνω δεξιά</sys:String>
     <sys:String x:Key="ClockMenuBottomRightString">Κάτω δεξιά</sys:String>
     <sys:String x:Key="ClockMenuTopLeftString">Επάνω αριστερά</sys:String>
@@ -249,6 +256,7 @@
     <sys:String x:Key="KeyboardCopyClipboard">Αντιγραφή τρέχουσας διεύθυνσης URL στο πρόχειρο.</sys:String>
     <sys:String x:Key="KeyboardLoadSubtitle">Φόρτωση αρχείου υποτίτλων.</sys:String>
     <sys:String x:Key="KeyboardCycleAspect">Αναλογία διαστάσεων κύκλος.</sys:String>
+    <sys:String x:Key="KeyboardVideoZoom">Βίντεο Μεγέθυνση/Σμίκρυνση/Επαναφορά Ζουμ.</sys:String>
     <sys:String x:Key="KeyboardBackUserList">Πίσω στη λίστα χρηστών.</sys:String>
     <sys:String x:Key="KeyboardAddFavorite">Προσθήκη αγαπημένου.</sys:String>
     <sys:String x:Key="KeyboardUserInfo">Πληροφορίες χρήστη.</sys:String>
