@@ -260,7 +260,7 @@
     <sys:String x:Key="KeyboardCycleAspect">Αναλογία διαστάσεων κύκλος.</sys:String>
     <sys:String x:Key="KeyboardVideoZoom">Βίντεο Μεγέθυνση/Σμίκρυνση/Επαναφορά Ζουμ.</sys:String>
     <sys:String x:Key="KeyboardBackUserList">Πίσω στη λίστα χρηστών.</sys:String>
-    <sys:String x:Key="KeyboardAddFavorite">Προσθήκη αγαπημένου.</sys:String>
+    <sys:String x:Key="KeyboardAddRemoveFavorite">Προσθήκη/Αφαίρεση αγαπημένου.</sys:String>
     <sys:String x:Key="KeyboardUserInfo">Πληροφορίες χρήστη.</sys:String>
     <sys:String x:Key="KeyboardToggleClockInfo">Εναλλαγή ψηφιακού ρολογιού.</sys:String>
     <sys:String x:Key="KeyboardToggleInterlacing">Εναλλαγή Ενεργοποίηση/Απενεργοποίηση της αποδιαπλοκής.</sys:String>
